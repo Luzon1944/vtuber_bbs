@@ -1,0 +1,144 @@
+/* 全体 */
+body {
+	margin:0 0;
+}
+ /* submit */
+.shadow {
+	margin:5px;
+  border-bottom: solid 3px gray;
+  border-radius: 3px;
+}
+
+header {
+	margin:0 0;
+	height: 55px;
+  width: 100%;  
+	background-color:rgb(245, 112, 72);
+	position: fixed; /* 固定 */
+  top: 0; /* 一番上に表示 */
+  width: 100%;
+}
+
+.wrapper {
+	overflow: hidden;
+}
+
+.header-right {
+	width:30;
+	transition: all 0.5s;
+	vertical-align: -10px;
+	line-height: 55px;
+	float: right;
+	padding:0 35px;
+	font-size:15px;
+}
+
+.menu {
+	text-decoration:none;
+	color: rgb(255, 255, 255);
+}
+
+.header-right:hover {
+	background-color:rgb(248, 150, 120);
+	color:rgb(0, 0, 0);
+}
+
+.header-left {
+	float:left;
+}
+
+.logo {
+	margin:0;
+	padding-top:5px;
+	padding-left:200px;
+	color:#ffffff;
+}
+
+h3 {
+	padding-left:100px;
+	margin:0;
+}
+
+.lesson-wrapper {
+	height:100%;
+	padding:50px 20px;	
+	display:inline-block;
+	float:left;
+	/* 固定 */
+	position: fixed;
+	top: 0; 
+	/* width: 100%; */
+	padding: 0.5em 1em;
+	margin-top: 60px;
+	color: #232323;
+	background: #fff8e8;
+	border-left: solid 10px #ffc06e;
+}
+
+
+.message-wrapper {
+	display:inline-block;
+	margin-top:50px;
+	margin-right:50px;
+	margin-left:450px;
+	/* padding-right:450px; */
+	float:left; 
+}
+
+.message-wrapper-bbs {
+	display:inline-block;
+	margin:80px 50px 20px 450px;
+	width:740px;
+	float:left;
+	color: #474747;
+	background: whitesmoke;
+	border-left: double 7px rgb(255, 229, 145);
+	border-right: double 7px rgb(255, 229, 145);
+}
+
+.top-wrapper {
+	margin:20px;
+}
+
+.msg {
+	width:700px;
+	padding: 30px 20px ;
+
+}
+
+/* list */
+.listbox {
+	padding: 0.5em 1em;
+	margin: 2em 0;
+	font-weight: bold;
+	color: rgb(119, 119, 119);/*文字色*/
+	/* background: rgb(255, 237, 220) ;
+	border: solid 3px rgb(255, 198, 145);
+	border-radius: 10px; */
+	background-color: #fff9cd;
+  border: dashed 3px #f7db86;
+}
+ /* エラー文 */
+.error {
+	color:rgb(255, 0, 0);
+}
+
+.text-box {
+
+}
+.build {
+	margin-top:80px;
+	margin-left:20px;
+}
+
+.main_margin {
+	margin-top:80px;
+	margin-left:20px;	
+}
+
+/* Twitterのロゴ */
+.fa	{
+	zoom: 2;
+	color:rgb(2, 214, 252)
+}
+
